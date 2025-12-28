@@ -167,17 +167,15 @@ The orchestration is performed explicitly in `orchestrator.py` and follows a lin
 
 ## System Flow Diagram
 
-
 The following diagram illustrates the deterministic execution flow of the multi-agent system, from input ingestion to final JSON outputs.
 
-![System Flow Diagram](kasparro-ai-agentic-content-generation-system-krishna-jhawar\docs\systemarchtitecture\Screenshot 2025-12-29 035150.png)
+![System Flow Diagram](./diagrams/system_flow.png)
+
 
 
 ## System Architecture Diagram
 
-The following diagram illustrates the high-level architecture and agent orchestration flow
-of the multi-agent content generation system. It shows how raw input data is parsed into a
-canonical product model, processed by specialized agents, and assembled into structured
-JSON outputs.
+The following diagram illustrates the high-level architecture and agent orchestration of the system, showing how agents, logic blocks, and templates interact.
 
-![System Architecture Diagram](kasparro-ai-agentic-content-generation-system-krishna-jhawar\docs\systemarchtitecture\Screenshot 2025-12-29 035023.png)
+![System Architecture Diagram](./diagrams/system_architecture.png)
+
