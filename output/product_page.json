@@ -1,0 +1,53 @@
+{
+  "page_type": "product_page",
+  "product_name": "GlowBoost Vitamin C Serum",
+  "concentration": "10% Vitamin C",
+  "skin_type": [
+    "Oily",
+    "Combination"
+  ],
+  "ingredients": [
+    "Vitamin C",
+    "Hyaluronic Acid"
+  ],
+  "benefits": {
+    "title": "Key Benefits",
+    "summary": "GlowBoost Vitamin C Serum focuses on: Brightening, Fades dark spots",
+    "benefit_items": [
+      {
+        "label": "Brightening",
+        "description": "Brightening benefit of GlowBoost Vitamin C Serum"
+      },
+      {
+        "label": "Fades dark spots",
+        "description": "Fades dark spots benefit of GlowBoost Vitamin C Serum"
+      }
+    ],
+    "key_ingredients": [
+      "Vitamin C",
+      "Hyaluronic Acid"
+    ]
+  },
+  "usage": {
+    "title": "How to Use",
+    "instruction": "Apply 2–3 drops in the morning before sunscreen",
+    "recommended_skin_types": [
+      "Oily",
+      "Combination"
+    ],
+    "routine_note": "Use GlowBoost Vitamin C Serum as directed in your routine. It is suitable for: Oily, Combination skin types."
+  },
+  "safety": {
+    "title": "Safety & Side Effects",
+    "known_side_effects": "Mild tingling for sensitive skin",
+    "general_guidance": "If you experience discomfort while using the product, consider reducing frequency of use or discontinuing and referring to the provided side effects description.",
+    "product_reference": "GlowBoost Vitamin C Serum"
+  },
+  "side_effects": "Mild tingling for sensitive skin",
+  "price": {
+    "title": "Price",
+    "product_name": "GlowBoost Vitamin C Serum",
+    "amount": 699,
+    "display": "699"
+  }
+}

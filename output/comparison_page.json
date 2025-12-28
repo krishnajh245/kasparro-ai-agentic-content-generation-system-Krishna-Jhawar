@@ -1,0 +1,52 @@
+{
+  "primary_product": {
+    "name": "GlowBoost Vitamin C Serum",
+    "key_ingredients": [
+      "Vitamin C",
+      "Hyaluronic Acid"
+    ],
+    "benefits": [
+      "Brightening",
+      "Fades dark spots"
+    ],
+    "price": 699
+  },
+  "comparison_product": {
+    "name": "Product B Serum",
+    "key_ingredients": [
+      "Ingredient 1",
+      "Ingredient 2"
+    ],
+    "benefits": [
+      "Benefit A",
+      "Benefit B"
+    ],
+    "price": 799
+  },
+  "ingredients_comparison": {
+    "primary": [
+      "Vitamin C",
+      "Hyaluronic Acid"
+    ],
+    "comparison": [
+      "Ingredient 1",
+      "Ingredient 2"
+    ]
+  },
+  "benefits_comparison": {
+    "primary": [
+      "Brightening",
+      "Fades dark spots"
+    ],
+    "comparison": [
+      "Benefit A",
+      "Benefit B"
+    ]
+  },
+  "price_comparison": {
+    "primary": 699,
+    "comparison": 799
+  },
+  "summary": "GlowBoost Vitamin C Serum and Product B Serum differ in ingredients, listed benefits, and price. GlowBoost Vitamin C Serum is priced at 699, while Product B Serum is priced at 799.",
+  "page_type": "comparison_page"
+}
