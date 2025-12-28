@@ -169,7 +169,7 @@ The orchestration is performed explicitly in `orchestrator.py` and follows a lin
 
 The following diagram illustrates the deterministic execution flow of the multi-agent system, from input ingestion to final JSON outputs.
 
-![System Flow Diagram](./diagrams/system_flow.png)
+![System Flow Diagram](./diagrams/System_flow.png)
 
 
 
