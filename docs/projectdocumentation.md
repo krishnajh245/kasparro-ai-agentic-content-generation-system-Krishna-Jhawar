@@ -167,59 +167,17 @@ The orchestration is performed explicitly in `orchestrator.py` and follows a lin
 
 ## System Flow Diagram
 
-```mermaid
-flowchart TD
-    A[input_data.json] --> B[ProductParserAgent]
 
-    B --> C[QuestionGeneratorAgent]
-    B --> D[ContentLogicAgent]
+The following diagram illustrates the deterministic execution flow of the multi-agent system, from input ingestion to final JSON outputs.
 
-    C --> E[FAQPageAgent]
-    D --> E
-
-    D --> F[ProductPageAgent]
-
-    B --> G[ComparisonPageAgent]
-
-    E --> H[output/faq.json]
-    F --> I[output/product_page.json]
-    G --> J[output/comparison_page.json]
-
-  ## System Architecture Diagram
-
-```mermaid
-flowchart TB
-    subgraph Input
-        A[input_data.json]
-    end
-
-    subgraph Core_Agents
-        B[ProductParserAgent]
-        C[QuestionGeneratorAgent]
-        D[ContentLogicAgent]
-    end
-
-    subgraph Page_Agents
-        E[FAQPageAgent]
-        F[ProductPageAgent]
-        G[ComparisonPageAgent]
-    end
-
-    subgraph Output
-        H[faq.json]
-        I[product_page.json]
-        J[comparison_page.json]
-    end
-
-    A --> B
-    B --> C
-    B --> D
-    C --> E
-    D --> E
-    D --> F
-    B --> G
-    E --> H
-    F --> I
-    G --> J
+![System Flow Diagram](kasparro-ai-agentic-content-generation-system-krishna-jhawar\docs\systemarchtitecture\Screenshot 2025-12-29 035150.png)
 
 
+## System Architecture Diagram
+
+The following diagram illustrates the high-level architecture and agent orchestration flow
+of the multi-agent content generation system. It shows how raw input data is parsed into a
+canonical product model, processed by specialized agents, and assembled into structured
+JSON outputs.
+
+![System Architecture Diagram](kasparro-ai-agentic-content-generation-system-krishna-jhawar\docs\systemarchtitecture\Screenshot 2025-12-29 035023.png)
