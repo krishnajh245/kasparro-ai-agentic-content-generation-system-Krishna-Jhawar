@@ -1,0 +1,17 @@
+{
+  "page_type": "product_page",
+  "required_fields": [
+    "page_type",
+    "product_name",
+    "concentration",
+    "skin_type",
+    "ingredients",
+    "benefits",
+    "usage",
+    "safety",
+    "side_effects",
+    "price"
+  ],
+  "logic_block_dependencies": ["benefits", "usage", "safety", "price"],
+  "description": "Template for product detail page driven by reusable logic blocks."
+}

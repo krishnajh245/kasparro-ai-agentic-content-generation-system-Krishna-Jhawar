@@ -1,0 +1,6 @@
+{
+  "page_type": "faq",
+  "required_fields": ["page_type", "product_name", "faqs"],
+  "logic_block_dependencies": ["benefits", "usage", "safety", "price"],
+  "description": "Template for FAQ page; content is populated by agents using logic blocks and questions."
+}

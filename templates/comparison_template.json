@@ -1,0 +1,14 @@
+{
+  "page_type": "comparison_page",
+  "required_fields": [
+    "page_type",
+    "primary_product",
+    "comparison_product",
+    "ingredients_comparison",
+    "benefits_comparison",
+    "price_comparison",
+    "summary"
+  ],
+  "logic_block_dependencies": ["comparison"],
+  "description": "Template for comparison page between primary product and structured Product B."
+}
